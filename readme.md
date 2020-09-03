@@ -1,2 +1,2 @@
 # js30
-30 basic vanilla Javascript application from Wes Bos.
+30 basic vanilla Js app
