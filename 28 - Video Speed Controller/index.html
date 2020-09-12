@@ -32,7 +32,7 @@
             console.log(percent);
             const max = 4;
             const min = 0.1;
-            const rate = (percent * (max - min) + min).toFixed(2);
+            const rate = (percent.toFixed(2) * (max - min) + min).toFixed(2);
             video.playbackRate = rate;
             speedBar.innerHTML = video.playbackRate + 'x';
         });
